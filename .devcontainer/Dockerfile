@@ -49,5 +49,3 @@ RUN useradd -m -s /bin/bash ` \
 
 USER codespace
 WORKDIR /home/codespace
-COPY --chown=codespace:codespace setup.sh /home/codespace/setup.sh
-RUN bash ./setup.sh
