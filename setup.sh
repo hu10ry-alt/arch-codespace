@@ -18,10 +18,10 @@ cd ~/.themes
 rm themes.zip
 
 
-mkdir ~/.local/share/icons
+mkdir -p ~/.local/share/icons
 cp resources/Nordzy-cyan.tar.gz ~/.local/share/icons
 cd ~/.local/share/icons
 tar -xf Nordzy-cyan.tar.gz
 rm Nordzy-cyan.tar.gz
 
-mv resources/wallpapers ~/
+cp /workspaces/arch-codespace/resources/wallpapers ~/
