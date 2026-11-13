@@ -6,7 +6,7 @@
 
 . ~/.config/desktop-env.sh
 
-feh --bg-fill "~/wallpapers/$WALLPAPER" &
+feh --bg-fill "home/codespace/wallpapers/"$WALLPAPER &
 
 tint2 &
 
