@@ -43,7 +43,7 @@ RUN pacman -Syu --noconfirm \
     && pacman -Scc --noconfirm
 
 # Create the non-root ` user
-RUN useradd -m -s /bin/bash ` \
+RUN useradd -m -s /bin/bash \
     && echo "codespace ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/codespace \
     && chmod 0440 /etc/sudoers.d/codespace
 
